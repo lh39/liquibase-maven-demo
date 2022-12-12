@@ -15,7 +15,7 @@
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>11</java.version>
-        <liquibase.version>4.17.2</liquibase.version>
+        <liquibase.version>4.18.0</liquibase.version>
         <timestamp>${maven.build.timestamp}</timestamp>
         <maven.build.timestamp.format>yyyyMMdd_HHmmss</maven.build.timestamp.format>
     </properties>
