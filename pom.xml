@@ -17,6 +17,7 @@
         <java.version>17</java.version>
         <timestamp>${maven.build.timestamp}</timestamp>
         <maven.build.timestamp.format>yyyyMMdd_HHmmss</maven.build.timestamp.format>
+        <liquibase.version>4.18.0</liquibase.version>
     </properties>
     <dependencies>
         <dependency>
@@ -67,7 +68,7 @@
                 <dependencies>
                     <dependency>
                         <groupId>org.liquibase.ext</groupId>
-                        <artifactId>liquibase-hibernate5</artifactId>
+                        <artifactId>liquibase-hibernate6</artifactId>
                         <version>${liquibase.version}</version>
                     </dependency>
                     <dependency>
