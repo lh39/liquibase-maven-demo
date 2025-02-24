@@ -17,7 +17,7 @@
         <java.version>17</java.version>
         <timestamp>${maven.build.timestamp}</timestamp>
         <maven.build.timestamp.format>yyyyMMdd_HHmmss</maven.build.timestamp.format>
-        <liquibase.version>4.31.0</liquibase.version>
+        <liquibase.version>4.31.1</liquibase.version>
     </properties>
     <dependencies>
         <dependency>
